@@ -11,6 +11,10 @@ body {
 
 }
 
+.jumbotron {
+  background-color: transparent !important;
+}
+
 .navbar-transparent {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -38,3 +42,4 @@ body {
 h1, h2, h3, h4 {
   font-family: Montserrat;
 }
+
