@@ -30,3 +30,11 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+body {
+  font-family: "Open Sans";
+}
+
+h1, h2, h3, h4 {
+  font-family: Montserrat;
+}
