@@ -26,7 +26,7 @@
       <!-- Navigation
       ================================================== -->
 
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -41,7 +41,7 @@
               <li><a href="index.html"><i class="fa fa-home"></i>
                Accueil</a></li>
               <li><a href="infos.html">Plus d'infos</a></li>
-              <li><a href="activites.html">Activités mensuelles</a></li>
+              <li><a href="activites.html">Activités</a></li>
               <li>
                 <form class="navbar-form" role="search">
                 <div class="form-group">
@@ -66,7 +66,38 @@
 
     </header>
 
+    <div class="container paddedTop">
 
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Laissez nous un message!</h1>
+        </div>
+      </div>
+
+      <form class="form-inline paddedTop text-center">
+        <div class="form-group">
+          <label class="sr-only" for="nom">Votre nom</label>
+          <input type="text" class="form-control" id="nom" placeholder="Alan Turing">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="dob">Date de naissance</label>
+          <input type="text" class="form-control" id="dob" placeholder="jj/mm/aaaa svp">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Résident de la commune
+          </label>
+        </div>
+      </form>
+      <form action="" class="paddedTop text-center">
+        <label for="message" class="sr-only">Votre message</label>
+        <textarea name="" id="message" rows="10" class="form-control" placeholder="Votre message"></textarea>
+        <br />
+        <button type="submit" class="btn btn-primary">Envoyer!</button>
+      </form>
+
+
+    </div>
 
 
 
