@@ -1,5 +1,5 @@
 .paddedTop {
-  padding-top: 50px;
+margin-top: 50px;
 }
 
 body {
@@ -42,4 +42,22 @@ body {
 h1, h2, h3, h4 {
   font-family: Montserrat;
 }
+
+.marathon, .brocante, .cinema, .musee, .concert, .rando {
+  border: 2px solid #ECE9E6;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.titreContact {
+  margin-bottom: 50px;
+}
+
+.formulaire {
+  border: 2px solid #ECE9E6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 
