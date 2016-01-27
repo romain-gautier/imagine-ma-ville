@@ -11,8 +11,17 @@ body {
 
 }
 
+#carousel-fleury {
+  width: 80%;
+  margin: auto;
+}
+
 .jumbotron {
   background-color: transparent !important;
+}
+
+.carouselHeader {
+  color: white;
 }
 
 .navbar-transparent {
@@ -37,15 +46,17 @@ body {
 
 body {
   font-family: "Open Sans";
+  color: #111111;
 }
 
 h1, h2, h3, h4 {
   font-family: Montserrat;
+  color: #222222;
 }
 
 .marathon, .brocante, .cinema, .musee, .concert, .rando {
   border: 2px solid #ECE9E6;
-  border-radius: 10px;
+  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
