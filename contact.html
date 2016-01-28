@@ -82,9 +82,19 @@
             <input type="text" class="form-control" id="nom" placeholder="Alan Turing">
           </div>
           <div class="form-group">
+            <label class="sr-only" for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="steve@gates.com">
+          </div>
+          <div class="form-group">
             <label class="sr-only" for="dob">Date de naissance</label>
             <input type="text" class="form-control" id="dob" placeholder="jj/mm/aaaa svp">
           </div>
+          <select class="form-control">
+            <option>France</option>
+            <option>Canada</option>
+            <option>Indonésie</option>
+            <option>USA</option>
+          </select>
           <div class="checkbox">
             <label>
               <input type="checkbox"> Résident de la commune
@@ -92,6 +102,8 @@
           </div>
         </form>
         <form action="" class="paddedTop text-center">
+          <input type="text" class="form-control text-center" placeholder="titre du message">
+          <br />
           <label for="message" class="sr-only">Votre message</label>
           <textarea name="" id="message" rows="10" class="form-control" placeholder="Votre message"></textarea>
           <br />
